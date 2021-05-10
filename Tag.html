@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>DOM change text</title>
+        <script>
+            function parat()
+            {
+                var para = document.getElementsByTagName("p");
+                para[0] = style.fontsize = 25;
+                para[1] = style.color = "red";
+                para[2] = style.fontfamily = "arial";
+                para[3] = style.fontweight = "bold";
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Heading</h1>
+      <p>First Sentance</p>
+      <p>Second Sentance</p>
+      <p>Third Sentance</p>
+      <h1>Heading</h1>
+      <p>Fourth Sentance</p>
+      <p>Fifth Sentance</p>
+      <h1>Heading</h1>
+      <button onclick="parat()">Submit</button>
+    </body>
+</html>

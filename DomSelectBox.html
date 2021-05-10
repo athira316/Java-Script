@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>DomSelect</title>
+        <script>
+           function select()
+           {
+               var select = document.getElementById("selectbox");
+               alert(select.options[select.selectedindex].value);
+           }
+        </script>
+    </head>
+    <body>
+      <select id="selectbox">
+          <option value="ADIT">ADIT</option>
+          <option value="DTPO">DTPO</option>
+          <option value="EMECH">EMECH</option>
+          <option value="CIVIL">CIVIL</option>
+      </select>
+      <button onclick="select()">Submit</button>
+    </body>
+</html>

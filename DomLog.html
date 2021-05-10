@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>DomLog</title>
+        <script>
+            function check()
+            {
+               var Email = document.getElementById("Email");
+               var Pass = document.getElementById("Pass");
+               if(Email == Pass)
+               {
+                   alert("Your Email Id and Password are same");
+               }
+               else{
+                   alert("Your Email Id and Password are not same");
+               }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="Email" placeholder="Email Id">
+        <br><br>
+        <input type="Password" id="Pass" placeholder="Password">
+        <br><br>
+        <button onclick="check()">Submit</button>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>DomCheckButton</title>
+        <script>
+           function butt()
+           {
+               var one = document.getElementById("one");
+               var two = document.getElementById("two");
+               if(one.checked == true)
+               {
+                   alert("Your Input Is : "+one.value);
+               }
+               else if(two.checked == true)
+               {
+                   alert("You are selecting : "+two.value);
+               }
+               else
+               {
+                   alert("no one selected");
+               }
+           }
+        </script>
+    </head>
+    <body>
+       <input type="radio" id="one">YES
+       <br><br>
+       <input type="radio" id="two">NO
+       <br><br>
+       <button onclick="butt()">Submit</button>
+    </body>
+</html>
